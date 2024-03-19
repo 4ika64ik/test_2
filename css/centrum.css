@@ -12573,32 +12573,6 @@ small,
     margin-top: 1rem
 }
 
-.list__item:before {
-    position: absolute;
-    content: url(../img/icon__good-3554e5cf.png);
-    left: -30px;
-    top: 50%;
-    transform: translateY(-50%)
-}
-
-.list__item--wrong:before {
-    position: absolute;
-    content: url(../img/icon__wrong-9ab868be.png)
-}
-
-.list__item--good-2:before {
-    position: absolute;
-    content: url(../img/icon__good-2-feadee1b.png);
-    top: 5px;
-    transform: translateY(0)
-}
-
-.list__item--good-3:before {
-    position: absolute;
-    content: url(../img/icon__good-3-b2c35294.png);
-    top: 5px;
-    transform: translateY(0)
-}
 
 .list__item--circle {
     font-size: 14px;
@@ -12645,7 +12619,7 @@ small,
 
 @media screen and (max-width: 991px) {
     .hero {
-        background: url(../img/bg__hero-8a0c4e2b.png);
+        background: url(../img/hero.png);
         background-size: cover;
         background-repeat: no-repeat;
         padding-bottom: 2rem
@@ -12679,7 +12653,7 @@ small,
 
 .hero__list-item:before {
     position: absolute;
-    content: url(../img/icon__arrow-check-aaf0283b.png);
+    
     width: 1.875rem;
     height: 1.875rem;
     left: -1.875rem
@@ -12863,7 +12837,7 @@ small,
 
 @media screen and (min-width: 992px) {
     .advantages {
-        background: url(../img/bg__glamilips-cc91985c.png);
+        background: url(../img/glamilips.png);
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
