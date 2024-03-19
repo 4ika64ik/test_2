@@ -13137,7 +13137,46 @@ button{
     transition-duration: 150ms;  
 }
 
+.list__item:before {
+    position: absolute;
+   
+    left: -30px;
+    top: 50%;
+    transform: translateY(-50%)
+}
+.list__items:before {
+    position: absolute;
+    content: url(../img/icon_good.png);
+    left: -30px;
+    top: 50%;
+    transform: translateY(-50%)
+}
+.list__item--wrong:before {
+    position: absolute;
+    content: url(../img/icon_wrong.png)
+}
 
+.list__item--good-2:before {
+    position: absolute;
+    content: url(../img/icon_good_2.png);
+    top: 5px;
+    transform: translateY(0)
+}
+
+.list__item--good-3:before {
+    position: absolute;
+    content: url(../img/icon_good_3_red.png);
+    top: 5px;
+    transform: translateY(0)
+}
+
+.hero__list-item:before {
+    position: absolute;
+    content: url(../img/arrow.png);
+    width: 1.875rem;
+    height: 1.875rem;
+    left: -1.875rem
+}
 
 
 input:not([type="radio"]):not([type="checkbox"]), select, textarea {
